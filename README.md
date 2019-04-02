@@ -95,60 +95,6 @@ Step 4: Once you are sure that your code is ready for review and merge, Go on gi
 Step 5: Once your code is merges to the master, you may delete your branch
 
 
-Exercise 1 : Make your first commit
-===================================
-
-$ cd <absolutePath>/COEN275/Project/Splitwise
-	
-$ git init
-
-$ git config --local user.name "Vaibhaw Raj"
-
-$ git config --local user.email "vaibhaw2020@gmail.com"
-
-$ git remote add origin https://github.com/vaibhawraj/SplitwiseDesktop.git
-
-$ git pull origin master
-
-$ git branch "your_branch_name"
-
-$ git checkout "your_branch_name"
-
-$ git branch
-
-Create a file and add your name and email address
-
-$ git add .
-
-$ git commit -m "First commit"
-
-$ git push origin "your_branch_name"
-
-Create a pull request
-
-
-Github Cheatsheet
-=================
-
-1. To fetch latest code from "Master" branch
-
-		$ git pull origin master
-
-2. Create your separate branch
-
-		$ git branch SplitwiseSDK
-
-3. View your current working branch
-
-		$ git branch
-
-4. To switch branch
-
-		$ git checkout <branch_name>
-
-5. To delete branch
-
-		$ git branch -d <branch_name>
 
 
 
